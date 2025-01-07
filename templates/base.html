@@ -14,8 +14,7 @@
     <title>{% block title %}{% endblock %}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-        .caveat-font {
+    
             font-family: 'Caveat', cursive;
             font-weight: 700;
             font-style: normal;
@@ -261,6 +260,7 @@
             line-height: 1.6;
         }
     </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 <body>

@@ -1,0 +1,52 @@
+.caveat-font {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+}
+
+body {
+    font-family: 'Google Sans', sans-serif;
+    background-color: #ededed;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content-container {
+    padding-top: 60px;
+    flex: 1;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: #f6f6f6;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* ... (Other styles from base.html, simplified for brevity) ... */
+
+.feature-card p {
+    color: #555;
+    line-height: 1.6;
+}
